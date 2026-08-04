@@ -1,0 +1,77 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+:root {
+    --color-cream: #FBFADA;    /* کرم روشن */
+    --color-sage-light: #ADBC9F; /* سبز مریم‌گلی روشن */
+    --color-green-medium: #436850; /* سبز متوسط */
+    --color-green-dark: #12372A;   /* سبز تیره */
+}
+
+
+body {
+    font-family: 'Tahoma', 'Arial', sans-serif;
+    background: linear-gradient(135deg, #F6F0D7, #C5D89D, #9CAB84);
+    color: var(--color-green-dark);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    min-height: 100vh;
+
+}
+
+
+.menu-section {
+    background-color: var(--color-cream);
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* دو ستون مساوی */
+    gap: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.menu-item {
+    background-color: var(--color-cream);  /* یا هر رنگی که دوست داری */
+    display: flex;
+    justify-content: space-between;  /* ← این رو اضافه کن */
+    align-items: center;  /* ← عمودی وسط‌چین */
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: var(--color-green-dark);
+}
+
+h1{
+    color: rgb(38, 81, 65);
+}
+
+h2{
+    font-size: 45px;
+}
+
+.price {
+    color: var(--color-green-medium);
+    font-weight: bold;
+}
+
+
+.category {
+    background-color: var(--color-sage-light);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tozihat {
+    margin-top: 2px;
+    font-size: 0.9rem;
+    color: var(--color-green-dark);
+}
