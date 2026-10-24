@@ -1,7 +1,11 @@
 # Food-menu
 Restaurant menu with four categories, grid layout, and nature colors.منوی رستوران با چهار دسته، گرید و رنگ‌های طبیعت.
 
+## تصاویر پروژه
 
+### منو غذا
+![منو غذا]( food menu.png).
+---
 
 ## 📖 درباره‌ی پروژه
 
